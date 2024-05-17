@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SimpleXML</string>
+    <string name="desc">XML Must be Interesting</string>
+    <string name="register">Register Here to Join us Learning</string>
 </resources>

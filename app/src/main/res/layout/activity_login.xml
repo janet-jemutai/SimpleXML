@@ -7,4 +7,28 @@
     android:layout_height="match_parent"
     tools:context=".login">
 
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/desc"
+        android:textSize="50sp"
+        android:background="@color/darkMaroon"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="@string/register"
+        android:textSize="70sp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/maroon"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
 </androidx.constraintlayout.widget.ConstraintLayout>
