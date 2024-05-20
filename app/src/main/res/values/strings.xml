@@ -2,4 +2,7 @@
     <string name="app_name">SimpleXML</string>
     <string name="desc">XML Must be Interesting</string>
     <string name="register">Register Here to Join us Learning</string>
+    <string name="welcome">Welcome Back !!</string>
+    <string name="email">Enter Your Email</string>
+    <string name="password">Enter Password</string>
 </resources>
