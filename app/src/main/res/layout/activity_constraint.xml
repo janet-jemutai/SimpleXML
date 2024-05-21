@@ -5,7 +5,6 @@
     android:id="@+id/name"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
     tools:context=".Constraint">
 
 
@@ -13,8 +12,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
         android:text="@string/consraint"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +28,8 @@
         android:ems="10"
         android:inputType="text"
         android:text="@string/name"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/edit_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
     <EditText
@@ -40,7 +40,8 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="@string/remail"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/edit_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rname" />
     <EditText
@@ -51,7 +52,8 @@
         android:ems="10"
         android:inputType="number"
         android:text="@string/id"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/edit_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/remail" />
 
@@ -59,11 +61,12 @@
         android:id="@+id/career"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="text"
         android:text="@string/career"
+        android:background="@drawable/edit_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/identification" />
 
@@ -72,7 +75,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="57dp"
-        android:text="Button"
+        android:text="@string/rregister"
+        android:background="@color/maroon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/career" />
