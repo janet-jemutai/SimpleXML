@@ -5,4 +5,9 @@
     <string name="welcome">Welcome Back !!</string>
     <string name="email">Enter Your Email</string>
     <string name="password">Enter Password</string>
+    <string name="consraint">Learn Constraint Layout</string>
+    <string name="name">Name</string>
+    <string name="remail">Your Email</string>
+    <string name="id">ID</string>
+    <string name="career">Career</string>
 </resources>
