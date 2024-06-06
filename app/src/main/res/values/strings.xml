@@ -1,15 +1,7 @@
 <resources>
-    <string name="app_name">SimpleXML</string>
-    <string name="desc">XML Must be Interesting</string>
-    <string name="register">Register Here to Join us Learning</string>
-    <string name="welcome">Welcome Back !!</string>
-    <string name="email">Enter Your Email</string>
-    <string name="password">Enter Password</string>
-    <string name="consraint">Learn Constraint Layout</string>
-    <string name="name">Name</string>
-    <string name="remail">Your Email</string>
-    <string name="id">ID</string>
-    <string name="career">Career</string>
-    <string name="rregister">Register</string>
-    <string name="loginbtn">Click Me</string>
+    <string name="app_name">RegistrationForm</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_adress">Email Adress</string>
+    <string name="register">Register</string>
 </resources>
