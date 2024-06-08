@@ -1,6 +1,7 @@
 package com.jemutai.simplexml
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
             val  etlname = binding.etlname.editableText.toString()
             val  etemail = binding.etemail.editableText.toString()
             Log.d(LOG_TAG, "First Name: $etfname, Last Name: $etlname, Email: $etemail")
+
+            val intent = Intent(this, AddNumbers::class.java)
+            startActivity(intent)
+
 
 
         }
