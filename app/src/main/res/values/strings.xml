@@ -9,4 +9,5 @@
     <string name="add">ADD</string>
     <string name="results">Results</string>
     <string name="first_number">First Number\n</string>
+    <string name="email_address">Email Address\n</string>
 </resources>
